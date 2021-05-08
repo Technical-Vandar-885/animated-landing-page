@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.05)), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .logo{
+    padding: 25px 45px;
+}
+nav .logo a{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+nav .links{
+    margin-top: -45px;
+    float: right;
+}
+nav .links a{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin: 15px;
+    font-weight: 650;
+}
+nav .links a:hover{
+    color: aqua;
+}
+nav .links button{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 650;
+}
+nav .links button:hover{
+    background-color: rgb(27, 150, 93);
+    color: #fff;
+}
+.main-content h1.intro{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #fff;
+    font-size: 45px;
+}
+.main-content h1#type{
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    color: #fff;
+    border-right: 3px solid #fff;
+    font-size: 40px;
+}
+.main-content button{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 650;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.main-content button:hover{
+    color: #fff;
+    transition: 0.5s;
+    background-color: #000; 
+}
+.social-media .icons{
+    position: absolute;
+    top: 90%;
+    left: 80%;
+
+}
+.social-media .icons i{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+
+i.fa-facebook:hover{
+    color: #1877f2;
+}
+i.fa-twitter:hover{
+    color: #1da1f2;
+}
+i.fa-linkedin:hover{
+    color: #0a66c2;
+}
+i.fa-instagram:hover{
+    color: #c32aa3;
+}
+i.fa-github:hover{
+    color: #211F1F;
+}
